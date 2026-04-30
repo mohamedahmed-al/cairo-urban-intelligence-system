@@ -108,7 +108,7 @@ streamlit run app.py
 
 
 ## 🎥 Live Demo
-https://www.youtube.com/watch?v=xJIDxv-8aTo
+https://www.youtube.com/watch?v=rXgWtvVKfNk
 
 
 ## 👨‍💻 Author
