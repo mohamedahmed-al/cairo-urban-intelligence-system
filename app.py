@@ -26,7 +26,7 @@ def load_and_build_graph():
                        group="Neighborhood", x=row['X-coordinate'], y=row['Y-coordinate'])
 
         # تحميل المرافق الهامة
-        df_f = pd.read_csv("csvFilesGeographic_Data(Important_Facilities).csv")
+        df_f = pd.read_csv("csvFiles/Geographic_Data(Important_Facilities).csv")
         for _, row in df_f.iterrows():
             fid = str(row['ID'])
             id_to_name[fid] = row['Name']
