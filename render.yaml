@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: cairo-urban-intelligence
-    runtime: docker
-    plan: free
-    dockerfilePath: ./Dockerfile
-    envVars:
-      - key: PORT
-        value: 8501
